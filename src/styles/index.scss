@@ -1,0 +1,25 @@
+@import "../styles/normalize.scss";
+@import "../styles/header.scss";
+@import "../styles/about.scss";
+@import "../styles/portfolio.scss";
+@import "../styles/footer.scss";
+
+$body-color: slateblue;
+
+body {
+  color: $body-color;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.wrap {
+  max-width: 630px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-device-width: 1024px) {
+  .wrap {
+    max-width: 1024px;
+  }
+}

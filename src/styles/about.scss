@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &_logo {
+    padding-bottom: 30px;
+  }
+
+  &_text {
+    border-bottom: 1px solid #e8e2e2;
+    box-shadow: 0 8px 5px -6px #e0e0e0;
+    z-index: 9;
+    background-color: white;
+    width: 100%;
+
+    h1 {
+      font-size: 22.5px;
+      font-family: "Cambay", serif;
+      color: rgb(64, 64, 64);
+      font-style: italic;
+      line-height: 1.6;
+      width: 70%;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+  }
+
+  &_image {
+    img {
+      position: relative;
+      top: -40px;
+    }
+  }
+}
